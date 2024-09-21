@@ -22,7 +22,6 @@ def answer(query:str, name:str) -> str:
         goals.add(key)
     
     # search in one iterate
-
     for key in knowledge_base:
         for key_ in knowledge_base[key]:
             if key_ in facts and knowledge_base[key][key_] in goals:
