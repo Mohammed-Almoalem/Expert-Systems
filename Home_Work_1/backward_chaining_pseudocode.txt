@@ -1,1 +1,22 @@
+knowledge_base ← dict{ .. }
 
+facts ← set()
+
+Algorithm Backward_Chaining( query, name )
+Begin
+  goals ← set()
+  for key in knowledge_base[query]
+    do
+    goals.add(key)
+  endfor
+  for key in knowledge_base
+    do
+    for key_ in knowledge_base[key]
+      do
+      IF key_ in facts and knowledge_base[key][key_] in goals THEN
+        facts.add(knowledge_base[key][key_])
+      IF key == query and key_ in facts:
+        return name + query + "is " + knowledge_base[key][key_]
+  endfor
+  return name + query + "is Unknown"
+END
