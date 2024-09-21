@@ -6,10 +6,6 @@ knowledge_base = {
     'color' : {
         'frog' : 'green',
         'canary' : 'yellow'
-    },
-    'size' : {
-        'frog' : 'small',
-        'canary' : 'bigger'
     }
 }
 
