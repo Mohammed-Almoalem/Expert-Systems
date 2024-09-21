@@ -6,6 +6,10 @@ knowledge_base = {
     'color' : {
         'frog' : 'green',
         'canary' : 'yellow'
+    },
+    'rgb' : {
+        'yellow' : '(255,255,0)',
+        'green' : '(0,255,0)'
     }
 }
 
@@ -23,10 +27,12 @@ def answer(query:str, name:str) -> str:
         for key_ in knowledge_base[key]:
             if key_ in facts and knowledge_base[key][key_] in goals:
                 facts.add(knowledge_base[key][key_])
+            if key_ in facts:
+                facts.add(knowledge_base[key][key_])
             if key == query and key_ in facts:
                 return(f'{name} {query} is {knowledge_base[key][key_]}')
 
     return(f'{name} {query} is Unkown')
 
-facts.add('chirps&sings')
-print(answer('type', 'Fritz'))
+facts.add('croaks&eats flies')
+print(answer('rgb', 'Fritz'))
