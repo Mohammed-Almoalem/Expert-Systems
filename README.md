@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png" style="width:600px; height:auto; object-fit:cover;" alt="Mahrah University">
+  <img src="https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png" style="width:300px; height:auto; object-fit:cover;" alt="Mahrah University">
 </p>
 
 # Expert System Implementation
