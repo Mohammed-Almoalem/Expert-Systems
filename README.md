@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png" alt="Example Image">
+  <img src="https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png" style="width:600px; height:auto; object-fit:cover;" alt="Mahrah University">
 </p>
 
 # Expert System Implementation
 
 This repository contains several Python scripts that implement basic expert systems using forward and backward chaining techniques. The systems leverage a knowledge base to infer conclusions based on given facts.
 
-## Files Overview
+## Files Overview 📁
 
 1. `forwrd-chaining.py`: Implements forward chaining to deduce information from a set of facts and a structured knowledge base. It infers the color and RGB values of animals based on their types.
 
@@ -18,14 +18,14 @@ This repository contains several Python scripts that implement basic expert syst
 
 5. `AC_Fuzzy_Expert_System.ipynb`: A Jupyter Notebook that utilizes a fuzzy logic approach to control air conditioning settings based on temperature and fan speed, providing a user-friendly interface for parameter adjustment.
 
-## Getting Started
+## Getting Started 🔰
 
 To run these scripts, ensure you have Python installed along with the necessary libraries. You can execute each script directly or run the Jupyter Notebook in an interactive environment.
 
-## Usage
+## Usage 🔰
 
 Each script contains examples and can be modified to test different scenarios. The expert systems can be expanded by adding more rules and facts to the knowledge base.
 
-## License
+## License ©️
 
 This project is licensed under the MIT License. See the LICENSE file for details.
