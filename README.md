@@ -1,3 +1,5 @@
+[Mahra University Logo](https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png)
+
 # Expert System Implementation
 
 This repository contains several Python scripts that implement basic expert systems using forward and backward chaining techniques. The systems leverage a knowledge base to infer conclusions based on given facts.
