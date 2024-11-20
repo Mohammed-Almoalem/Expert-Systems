@@ -1,4 +1,6 @@
-[Mahra University Logo](https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png)
+<p align="center">
+  <img src="https://github.com/Mohammed-Almoalem/Expert-Systems/blob/main/logo-removebg-preview.png" alt="Example Image">
+</p>
 
 # Expert System Implementation
 
